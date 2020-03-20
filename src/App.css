@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+html,
+body,
+.root {
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  line-height: 1.5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body,
+.app {
+  background: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* search bar */
+
+.search-iTune-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 0 6px rgba(0, 0, 0, 0.23);
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.search-itune-input-wrapper {
+  flex: 1;
+  background: #e9e;
+}
+
+.search-itune-input-wrapper input {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 1.25em;
+  border: none;
+  outline: none;
+}
+
+/* search results list */
+
+.search-itunes-results {
+  padding: 80px 10px 20px;
+}
+
+/* iTunes grid */
+
+.itunes-grid {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.itunes-grid li {
+  padding: 10px 15px;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.iTune {
+  width: 140px;
+}
+
+.iTune-top {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* iTune cover */
+
+.iTune-cover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: #eee;
+}
+
+.iTune-cover-title {
+  padding: 20px 10px 0;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.song-title,
+.song-artist {
+  font-size: 0.8em;
+}
+
+.song-title {
+  margin-top: 10px;
+}
+
+.song-artist {
+  color: #999;
+}
+
+.itune-play {
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #60ac5d;
+  background-image: url('./icons/pause-play-button.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
 }
