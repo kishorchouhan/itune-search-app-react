@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/itune-search-app-react/static/css/main.a6b90fc2.chunk.css",
+    "main.js": "/itune-search-app-react/static/js/main.565b6b61.chunk.js",
+    "main.js.map": "/itune-search-app-react/static/js/main.565b6b61.chunk.js.map",
+    "runtime-main.js": "/itune-search-app-react/static/js/runtime-main.cd1b7a0f.js",
+    "runtime-main.js.map": "/itune-search-app-react/static/js/runtime-main.cd1b7a0f.js.map",
+    "static/js/2.bb44baeb.chunk.js": "/itune-search-app-react/static/js/2.bb44baeb.chunk.js",
+    "static/js/2.bb44baeb.chunk.js.map": "/itune-search-app-react/static/js/2.bb44baeb.chunk.js.map",
+    "index.html": "/itune-search-app-react/index.html",
+    "precache-manifest.791baf29665adc70773355ba31b86450.js": "/itune-search-app-react/precache-manifest.791baf29665adc70773355ba31b86450.js",
+    "service-worker.js": "/itune-search-app-react/service-worker.js",
+    "static/css/main.a6b90fc2.chunk.css.map": "/itune-search-app-react/static/css/main.a6b90fc2.chunk.css.map",
+    "static/js/2.bb44baeb.chunk.js.LICENSE.txt": "/itune-search-app-react/static/js/2.bb44baeb.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/itune-search-app-react/static/media/pause-play-button.67b3520b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd1b7a0f.js",
+    "static/js/2.bb44baeb.chunk.js",
+    "static/css/main.a6b90fc2.chunk.css",
+    "static/js/main.565b6b61.chunk.js"
+  ]
+}
